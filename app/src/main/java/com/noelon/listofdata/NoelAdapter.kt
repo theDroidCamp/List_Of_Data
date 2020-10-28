@@ -16,6 +16,7 @@ class NoelAdapter(private val books: ArrayList<FavouriteBook>) :
         return books.size
     }
 
+
     override fun onBindViewHolder(holder: Noelholder, position: Int) {
         val bookItem = books[position]
         holder.bind(bookItem)
