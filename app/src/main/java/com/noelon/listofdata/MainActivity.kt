@@ -7,14 +7,14 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var adapter: NoelAdapter
+    private lateinit var adapter: ElonAdapter
     private lateinit var linearLayoutManager: LinearLayoutManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
-        adapter = NoelAdapter(favouriteBookList)
+        adapter = ElonAdapter(favouriteBookList)
         linearLayoutManager = LinearLayoutManager(this)
 
         recycler_view.adapter = adapter
