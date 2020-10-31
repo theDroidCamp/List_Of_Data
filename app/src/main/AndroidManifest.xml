@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".oscar.OscarActivity"></activity>
+        <activity android:name=".ChibufirstActivity" />
         <activity android:name=".CarlaActivity" />
         <activity android:name=".Dianah_Activity" />
         <activity android:name=".TaofeeqActivity" />
