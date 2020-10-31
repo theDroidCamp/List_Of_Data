@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class NoelAdapter(private val books: ArrayList<FavouriteBook>) :
-    RecyclerView.Adapter<NoelAdapter.Noelholder>() {
+class ElonAdapter(private val books: ArrayList<FavouriteBook>) :
+    RecyclerView.Adapter<ElonAdapter.Noelholder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Noelholder {
         val inflatedView = parent.inflate(R.layout.rv_item, false)
         return Noelholder(inflatedView)
@@ -15,6 +15,7 @@ class NoelAdapter(private val books: ArrayList<FavouriteBook>) :
     override fun getItemCount(): Int {
         return books.size
     }
+
 
     override fun onBindViewHolder(holder: Noelholder, position: Int) {
         val bookItem = books[position]
