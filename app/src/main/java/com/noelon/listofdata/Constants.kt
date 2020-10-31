@@ -9,7 +9,11 @@ data class FavouriteBook(
     val name: String,
     val rating: Int,
     val author: String
-)
+) {
+    object favouriteBookList {
+
+    }
+}
 
 
 val favouriteBookList = arrayListOf<FavouriteBook>(
