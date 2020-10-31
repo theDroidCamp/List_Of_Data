@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".oscar.OscarActivity"></activity>
         <activity android:name=".ChibufirstActivity" />
         <activity android:name=".CarlaActivity" />
         <activity android:name=".Dianah_Activity" />
