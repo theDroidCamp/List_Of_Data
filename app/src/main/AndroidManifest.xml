@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.noelon.listofdata">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CarlaActivity"></activity>
-
-        <activity android:name=".Dianah_Activity"></activity>
-        <activity android:name=".TaofeeqActivity"/>
-        <activity android:name=".EmuActivity"></activity>
-        <activity android:name=".KhayActivity"></activity>
-
+        <activity android:name=".oscar.OscarActivity"></activity>
+        <activity android:name=".CarlaActivity" />
+        <activity android:name=".Dianah_Activity" />
+        <activity android:name=".TaofeeqActivity" />
+        <activity android:name=".EmuActivity" />
+        <activity android:name=".KhayActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
