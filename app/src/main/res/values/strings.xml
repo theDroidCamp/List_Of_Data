@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ListOfData</string>
+    <string name="Author">TextView</string>
+    <string name="rating">TextView</string>
+    <string name="Name">TextView</string>
+    <string name="go_to">Goto</string>
 </resources>
