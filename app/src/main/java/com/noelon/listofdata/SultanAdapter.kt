@@ -41,7 +41,7 @@ class SultanAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         fun bind(book: FavouriteBook){
             nameOfBook.setText(book.name)
             rating.setText(book.rating.toString())
-             authorName.setText(book.author)
+            authorName.setText(book.author)
         }
     }
 }
